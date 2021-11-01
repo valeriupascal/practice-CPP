@@ -205,6 +205,15 @@ bool Search(Node* root, int data) {  //searching node
 }
 
 int main() {
+   
+  //        15
+	//		   / \
+	//		  10   20
+	//		 / \     \
+	//		8   12     25
+  //         \
+  //          13
+  
   Node* root = NULL;
   root = Insert(root, 15);   // Insert function
   root = Insert(root, 10);
